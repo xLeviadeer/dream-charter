@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net10.0-windows</TargetFramework>
+		<LangVersion>preview</LangVersion>
+		<RootNamespace>Dream_Charter</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+	  <UserSecretsId>8ecf6052-b3ff-4b1e-a68f-24fc8a968a96</UserSecretsId>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DiscordRichPresence" Version="1.6.1.70" />
+		<PackageReference Include="Microsoft.Msagl" Version="1.1.6" />
+		<PackageReference Include="Microsoft.Msagl.Drawing" Version="1.1.6" />
+		<PackageReference Include="Microsoft.Msagl.GraphViewerGDI" Version="1.1.7" />
+		<PackageReference Include="Microsoft.NETCore.App" Version="2.2.8" />
+		<PackageReference Include="QuikGraph" Version="2.5.0" />
+		<PackageReference Include="System.Drawing.Common" Version="10.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Documentation\Examples\creation-locations\my objects folder\" />
+	  <Folder Include="Documentation\Examples\creation-locations\my locations folder\" />
+	  <Folder Include="Documentation\Examples\discord-presence\secrets\" />
+	  <Folder Include="Documentation\Examples\file-extensions\" />
+	  <Folder Include="Documentation\Examples\default-location\" />
+	  <Folder Include="Documentation\Examples\exit-keyword\" />
+	  <Folder Include="Documentation\Examples\curiosity\" />
+	  <Folder Include="Documentation\Examples\comprehensive-example\" />
+	</ItemGroup>
+
+	<Import Project="Local.targets" Condition="Exists('Local.targets')" />
+</Project>
