@@ -1,4 +1,4 @@
-﻿[to Overview](../overview.md)
+﻿[to Overview](../README.md)
 
 ### Woah╌hold on╌this is technical
 This content is about changing your Discord presence. You should have an understanding of how Discord presence apps work before continuing.
