@@ -18,7 +18,7 @@ To set up a new note-set ⌄
 2. In your files you will see new folders, including `data`. Open the `data` folder. The `data` folder is meant to contain your notes.
 3. In this folder create a file named `overworld.dreamlocation`. Inside of this file write the text `overworld`.
 
-You can open your `.dreamlocation` folder with a text editor like Notepad or Visual Studio Code.
+You can open your `.dreamlocation` file with a text editor like Notepad or Visual Studio Code.
 
 If you'd like you can [change the default location](./default-location.md) to something other than ⸉overworld⸉. In this case you'd want to replace the text in `default_location` to `‹your_name›`, `overworld.dreamlocation` with `‹your_name_›.dreamlocation` and the text in that file to `‹your_name›`.
 
