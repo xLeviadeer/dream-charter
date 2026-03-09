@@ -52,7 +52,7 @@ The example project⊶[locations](./Examples/locations)⊷is an example with the
 ---
 ## Creating a Common Object
 ### Creating a New Common Object
-To create a new common object create a new new file in the data folder with some name with the `.dreamobject` extension. For example, `my object.dreamobject`. In this file you need to an ⸉id⸉. It should match your file name╌so╌`my object` should be the contents of the file. 
+To create a new common object create a new new file in the data folder with some name with the `.dreamobject` extension. For example, `my object.dreamobject`. In this file you need to have an ⸉id⸉. It should match your file name╌so╌`my object` should be the contents of the file. 
 
 ### Creating a Common Object Reference
 Now that you have a common object you can add an [common object reference](./common-object.md) to any location. In your location╌on a new line╌add `^` followed by the id of your object (`my object`). 
@@ -65,7 +65,7 @@ The example project⊶[common-objects](./Examples/common-objects)⊷is an exampl
 ### Why Curiosities?
 Curiosities are a specific type of information which is stored like a ⸉todo⸉ item. Curiosities are used to list things that are not yet understood; curiosities are a log of things you'd like to get to but can't at the moment.
 
-Curiosities should be used over regulary information because they can specifically be listed in a list of curiosities rather than clogging up information fields with todo items.
+Curiosities should be used over regular information because they can specifically be listed in a list of curiosities rather than clogging up information fields with todo items.
 
 ### Creating a Curiosity
 In any location╌on a new line╌add `*` followed by whatever you'd like to write for this curiosity.
@@ -171,4 +171,4 @@ Examples of paths going to reserved locations ⌄
 * `- touch glowing orb -> a`
 
 ---
-Done getting started? [head back to Overview](./overview.md).
+Done getting started? [head back to Overview](../README.md).
