@@ -133,7 +133,7 @@ all of the following are valid navigations from overworld. This example can be f
 5. `couch land` then `..` 
 	* brings you into couch land | changes your current location to couch land
 	* brings you into overworld by removing ⸉couch land⸉ from the end of your path history.
-6. `couch land` then `,,` 
+6. `couch land` then `//` 
 	* brings you into couch land | changes your current location to couch land
 	* brings you into overworld by reseting your path and bringing you to the default location.
 
